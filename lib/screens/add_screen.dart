@@ -23,7 +23,7 @@ class _AddState extends State<Add> {
       appBar: AppBar(
         backgroundColor: Colors.green.shade800,
         centerTitle: true,
-        title: const Text('Add User Details'),
+        title: const Text('Add User Details for buy matterial'),
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 20.0),
