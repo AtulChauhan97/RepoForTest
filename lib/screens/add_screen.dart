@@ -69,6 +69,7 @@ class _AddState extends State<Add> {
               const SizedBox(
                 height: 30,
               ),
+              //this is a padding
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: TextFormField(
