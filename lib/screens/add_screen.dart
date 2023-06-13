@@ -18,7 +18,7 @@ class _AddState extends State<Add> {
 
   @override
   Widget build(BuildContext context) {
-    final Size = MediaQuery.of(context).size;
+    final my_size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green.shade800,
