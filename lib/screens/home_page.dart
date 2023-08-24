@@ -151,10 +151,10 @@ class _HomePageState extends State<HomePage> {
                                   color: Colors.blueGrey.shade900,
                                 ),
                                 itemBuilder: (context) => [
-                                  PopupMenuItem(
+                                  const PopupMenuItem(
                                       value: 1,
                                       child: Row(
-                                        children: const [
+                                        children: [
                                           Icon(
                                             Icons.edit,
                                             color: Colors.pink,
@@ -169,10 +169,10 @@ class _HomePageState extends State<HomePage> {
                                           )
                                         ],
                                       )),
-                                  PopupMenuItem(
+                                  const PopupMenuItem(
                                       value: 2,
                                       child: Row(
-                                        children: const [
+                                        children: [
                                           Icon(
                                             Icons.delete,
                                             color: Colors.pink,
